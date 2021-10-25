@@ -20,9 +20,8 @@ Mostly my own testing/tweaks/documentation.
 
 ## Not working:
 
-- Sprice virtio-serial passed through for Spice viewer seamless mouse integration/clipboard
-- `cat /dev/tty.com.redhat.spice.0` on guest releases focus and shows mouse activity
-- spice-vdagent still needs to be ported 
+- spice-vdagent needs to be ported to MacOS - needed for seamless mouse integration/clipboard
+- Qemu/virtio passthrough works and `cat /dev/tty.com.redhat.spice.0` on macos releases focus and shows mouse activity so it's promising
 
 ## Issues
 
