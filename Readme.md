@@ -10,10 +10,11 @@ Mostly my own testing/tweaks/documentation.
 - Spice USB redirection (ich9-usb-ehci1)
 - Audio output/microphone
 - QMP port for qmp-shell/virsh  `./qmp-shell 172.17.0.3:7008`
+- [Qemu Guest Agent](https://github.com/jpmorrison/OSX-Qemu/issues/6#issue-1035504816) for AppleQEMUGuestAgent/[QEMUGuestAgent](https://wiki.qemu.org/Features/GuestAgent)
 
 ## Almost working:
 
-- Guest Agent exposed to make `/usr/libexec/AppleQEMUGuestAgent` happy. Not sure how to use yet.
+
 - Spice client folder sharing (WebDav) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Can mount/see folder but phodav hangs/slow after a single file copy. Unusable.
 
 ## Not working:
