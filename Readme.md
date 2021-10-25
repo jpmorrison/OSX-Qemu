@@ -7,9 +7,9 @@ Mostly my own testing/tweaks/documentation.
 ## Working: 
 
 - [multiple displays](https://github.com/jpmorrison/OSX-Qemu/issues/2) with Spice client
-- Spice USB redirection (ich9-usb-ehci1)
-- Audio output/microphone
-- QMP port for qmp-shell/virsh  `./qmp-shell 172.17.0.3:7008`
+- Catalina: improved [Spice USB](https://github.com/jpmorrison/OSX-Qemu/issues/5#issue-1035464801) redirection (ich9-usb-ehci1)
+- [Audio output/microphone](https://github.com/jpmorrison/OSX-Qemu/issues/4#issue-1035457873)
+- [QMP port](https://github.com/jpmorrison/OSX-Qemu/issues/3#issue-1035396452) for qmp-shell/virsh  `./qmp-shell 172.17.0.3:7008`
 - [Qemu Guest Agent](https://github.com/jpmorrison/OSX-Qemu/issues/6#issue-1035504816) for AppleQEMUGuestAgent/[QEMUGuestAgent](https://wiki.qemu.org/Features/GuestAgent)
 
 ## Almost working:
