@@ -9,6 +9,7 @@ Mostly my own testing/tweaks/documentation.
 - [multiple displays](https://github.com/jpmorrison/OSX-Qemu/issues/2) with Spice client
 - Catalina: improved [Spice USB](https://github.com/jpmorrison/OSX-Qemu/issues/5#issue-1035464801) redirection (ich9-usb-ehci1)
 - [Audio output/microphone](https://github.com/jpmorrison/OSX-Qemu/issues/4#issue-1035457873)
+- Virtio-9P
 - [QMP port](https://github.com/jpmorrison/OSX-Qemu/issues/3#issue-1035396452) for qmp-shell/virsh  `./qmp-shell 172.17.0.3:7008`
 - [Qemu Guest Agent](https://github.com/jpmorrison/OSX-Qemu/issues/6#issue-1035504816) for AppleQEMUGuestAgent/[QEMUGuestAgent](https://wiki.qemu.org/Features/GuestAgent)
 
@@ -26,3 +27,11 @@ Mostly my own testing/tweaks/documentation.
 ## Issues
 
 - OpenCoreBoot using virtio doesn't remember your boot disk. I should put it pack to sata
+
+## Acknowledgements
+
+ [Docker-OSX](https://github.com/sickcodes/Docker-OSX) 
+ [Quickemu](https://github.com/wimpysworld/quickemu)
+ [OSX-KVM](https://github.com/kholia/OSX-KVM)
+ 
+ 
