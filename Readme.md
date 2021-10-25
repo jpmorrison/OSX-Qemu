@@ -21,3 +21,7 @@ Mostly my own testing/tweaks/documentation.
 - Sprice virtio-serial passed through for Spice viewer seamless mouse integration/clipboard
 - `cat /dev/tty.com.redhat.spice.0` on guest releases focus and shows mouse activity
 - spice-vdagent still needs to be ported 
+
+## Issues
+
+- OpenCoreBoot using virtio doesn't remember your boot disk. I should put it pack to sata
