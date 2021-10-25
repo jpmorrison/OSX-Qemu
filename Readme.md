@@ -1,10 +1,12 @@
-Qemu/Catalina  
+Qemu/Catalina/Spice viewer
 
 Launch.sh for [Docker-OSX](https://github.com/sickcodes/Docker-OSX) - can adapt to [Quickemu](https://github.com/wimpysworld/quickemu)
 
+Mostly my own testing/tweaks/documentation.
+
 ## Working: 
 
-- multiple displays with Spice client
+- [multiple displays](https://github.com/jpmorrison/OSX-Qemu/issues/2) with Spice client
 - Spice USB redirection (ich9-usb-ehci1)
 - Audio output/microphone 
 
