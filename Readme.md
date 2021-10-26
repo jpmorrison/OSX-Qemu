@@ -15,8 +15,7 @@ Mostly my own testing/tweaks/documentation.
 
 ## Almost working:
 
-
-- Spice client folder sharing (WebDav) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Can mount/see folder but phodav hangs/slow after a single file copy. Unusable.
+- Spice client folder sharing (WebDav) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Working-ish when built with Brew/
 
 ## Not working:
 
