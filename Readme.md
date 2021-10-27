@@ -1,8 +1,6 @@
 Qemu/Catalina with Spice viewer remote viewer. 
 
-Launch.sh for [Docker-OSX](https://github.com/sickcodes/Docker-OSX) - can adapt to [Quickemu](https://github.com/wimpysworld/quickemu)
-
-This setup is optimized for remote-viewer. If you want PCI/GPU passthrough look at [KVM-Opencore](https://github.com/thenickdude/KVM-Opencore). 
+Launch.sh for [Docker-OSX](https://github.com/sickcodes/Docker-OSX) - can adapt to [Quickemu](https://github.com/wimpysworld/quickemu). This setup is optimized for remote-viewer. If you want PCI/GPU passthrough look at [KVM-Opencore](https://github.com/thenickdude/KVM-Opencore). 
 
 Mostly my own testing/tweaks/documentation.
 
