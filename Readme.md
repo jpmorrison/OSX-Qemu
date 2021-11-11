@@ -15,7 +15,8 @@ Mostly my own testing/tweaks/documentation.
 
 ## Almost working:
 
-- Spice client folder sharing [WebDav](https://github.com/jpmorrison/OSX-Qemu/issues/7#issue-1035603758) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Working-ish when built with Brew
+- Spice client folder sharing [WebDav](https://github.com/jpmorrison/OSX-Qemu/issues/7#issue-1035603758) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Working-ish when built with Brew. IMO phodav is buggy and has weird build issues with glib.
+- "Seamless" mouse with Spice remote-viewer works with libvirt config. Need more info. 
 
 ## Not working:
 
