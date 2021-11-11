@@ -25,7 +25,8 @@ Mostly my own testing/tweaks/documentation.
 
 ## Issues
 
-- OpenCoreBoot using virtio doesn't remember your boot disk. I should put it pack to sata
+- Fixing boot order
+- ACPI/guest sleeping/wakeup problems. 
 
 ## Acknowledgements
 
