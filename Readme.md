@@ -21,7 +21,7 @@ Mostly my own testing/tweaks/documentation.
 ## Not working:
 
 - spice-vdagent needs to be ported to MacOS - needed for ~~seamless mouse integration~~clipboard
-- Qemu/virtio passthrough works and `cat /dev/tty.com.redhat.spice.0` on macos releases focus and shows mouse activity so it's promising
+- vdagent channel passthrough works and `cat /dev/tty.com.redhat.spice.0` on macos guest releases focus and shows mouse activity
 
 ## Issues
 
