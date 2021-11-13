@@ -12,11 +12,12 @@ Mostly my own testing/tweaks/documentation.
 - Virtio-9P - with [NFS](https://github.com/jpmorrison/OSX-Qemu/issues/8#issue-1037696046) share
 - [QMP port](https://github.com/jpmorrison/OSX-Qemu/issues/3#issue-1035396452) for qmp-shell/virsh  `./qmp-shell 172.17.0.3:7008`
 - [Qemu Guest Agent](https://github.com/jpmorrison/OSX-Qemu/issues/6#issue-1035504816) for AppleQEMUGuestAgent/[QEMUGuestAgent](https://wiki.qemu.org/Features/GuestAgent)
+- Seamless mouse: beware of unexpected display problems. https://gitlab.com/qemu-project/qemu/-/issues/723
 
 ## Almost working:
 
 - Spice client folder sharing [WebDav](https://github.com/jpmorrison/OSX-Qemu/issues/7#issue-1035603758) using [phodav](https://gitlab.gnome.org/jpmorrison/phodav). Working-ish when built with Brew. IMO phodav is buggy and has weird build issues with glib.
-- "Seamless" mouse with Spice remote-viewer works with libvirt config but not [bare-metal qemu cli](https://github.com/jpmorrison/OSX-Qemu/issues/9#issue-1051342057). Need more info. 
+- "Seamless" mouse with Spice remote-viewer works with libvirt config but not [bare-metal qemu cli](https://github.com/jpmorrison/OSX-Qemu/issues/9#issue-1051342057). Need more info. Update: working now
 
 ## Not working:
 
